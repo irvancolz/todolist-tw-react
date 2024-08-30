@@ -7,14 +7,14 @@
 ```
 
 - build the project
-  ```bash
-  npm run build
-  ```
+ ```bash
+ npm run build
+ ```
   
 - run the project
-  ```bash
-  npm run preview
-  ```
+```bash
+ npm run preview
+ ```
 
 # React + TypeScript + Vite
 
