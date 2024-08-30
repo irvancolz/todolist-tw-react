@@ -16,6 +16,20 @@
  npm run preview
  ```
 
+## Design explanation
+
+### Button Component:
+I designed the button component to handle various button styles needed across the application. Given that our app utilizes many buttons with different variations—such as filled, outlined, subtle, or with icons—I wanted to create a flexible and reusable solution. By consolidating the logic for different button types into a single component, I’ve ensured ease of integration and streamlined maintenance. This approach allows us to manage button styles consistently and efficiently, reducing redundancy and simplifying updates.
+________________________________________
+
+### Popup Component:
+To manage multiple popups within the app, I developed a custom popup wrapper component. The goal was to create a reusable and easily integrable solution that simplifies the process of opening, closing, and rendering popups. This approach minimizes code duplication and enhances maintainability by centralizing the popup logic. With this component, any modifications to popup behavior are made in one place, making it a more efficient and organized solution for handling UI elements.
+________________________________________
+
+### Store Management:
+In the application, I chose to leverage a global state management solution (store) to handle complex state streams effectively. This decision was driven by the need to avoid the challenges associated with props drilling, which can become cumbersome and error-prone as the app scales. By centralizing state management, I can streamline the integration of new features and ensure that state changes are consistently and efficiently propagated throughout the app. This approach not only simplifies development but also enhances scalability and maintainability, allowing us to manage complex state interactions in a more organized and manageable way.
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
