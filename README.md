@@ -1,3 +1,21 @@
+## Demo Url : [here](https://poetic-khapse-6a09ba.netlify.app)
+
+## how to run
+ - install all depedencies
+ ```bash 
+ npm install
+```
+
+- build the project
+  ```bash
+  npm run build
+  ```
+  
+- run the project
+  ```bash
+  npm run preview
+  ```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
